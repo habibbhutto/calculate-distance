@@ -17,6 +17,19 @@
 *.zip
 *.tar.gz
 *.rar
+customer-cli/.idea
+customer-cli/.settings
+customer-cli/.classpath
+customer-cli/.project
+customer-cli/customer-cli.iml
+customer-cli/target
+
+customer-service/.idea
+customer-service/.settings
+customer-service/.classpath
+customer-service/.project
+customer-service/customer-cli.iml
+customer-service/target
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*

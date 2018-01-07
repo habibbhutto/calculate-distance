@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: prod
+
+---
+
+spring:
+  profiles: dev
+
+security:
+  enable: true
+
+server:
+  port: 8000
+  context-path: /api
+
+---
+
+spring:
+    profiles: prod
+
+security:
+  enable: true
+
+server:
+  port: 8001
+  context-path: /api
