@@ -23,4 +23,4 @@ using maven
 
 to deploy in production build project using maven `mvn clean package` and deploy using `java -jar -Dspring.profiles.active=prod [customer-service jar file name]`
 
-Once the application started browse http://localhost:8000/api/customers (for production point to port no 8001) enter credentials admin:admin
+Once the application started browse http://localhost:8000/api/customers (for production point to port no 8001) enter credentials username `admin` and password `admin`
