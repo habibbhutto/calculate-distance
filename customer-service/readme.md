@@ -14,7 +14,7 @@ The implementation of this application demonstrates retrieving nearby customers 
 8. Basic test cases are covered in Unit and Integration tests.
 9. `TestConfig` is used in unit test context.
 10. Data in test resources is used in all tests.
-11. `Logging` is just to cover basic logging concept.
+11. `Logging` is just to cover basic logging concept. The request `correlation-id` is not implemented.
 12. The application has two basic profiles one for dev and other for prod.
 
 ## Running the application
